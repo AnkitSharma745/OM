@@ -68,7 +68,7 @@ function Footer() {
             <h3 className="text-xl font-semibold">Follow Us</h3>
             <div className="flex space-x-4 mt-2">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/Ombilliardofficial?rdid=O8QRoFt0GJubO15Q&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fx1KLXTqn7qVtUccS%2F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-transform duration-300 transform hover:scale-125"
