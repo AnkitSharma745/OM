@@ -50,12 +50,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a
+                {/* <a
                   id="#contact"
                   className="hover:text-white transition-colors duration-300"
                 >
                   Contact Us
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>

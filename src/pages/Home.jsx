@@ -76,7 +76,7 @@ function Home() {
                   <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <button className="m-auto mt-1 px-4 py-2 w-40 border-sky-900 border-2 font-semibold rounded-3xl hover:bg-blue-400 hover:text-white hover:border-none text-2xl transition duration-300 transform hover:scale-105">
-                    <Link to="/product">Explore</Link>
+                    <Link to={product.path}>Explore</Link>
                   </button>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function Home() {
             Discover premium tables and accessories that redefine your play.
           </p>
           <button className="p-3 w-40 border-sky-900 border-2 font-semibold rounded-3xl hover:bg-blue-400 hover:text-white hover:border-none text-xl transition duration-300">
-            <Link to="/product">Shop Now</Link>
+            <Link to="/products">Shop Now</Link>
           </button>
         </div>
       </div>

@@ -1,23 +1,27 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Aramith from "../assets/Brands/Aramith_Logo_Brand.avif";
+import Wiraka from "../assets/Brands/Wiraka_Image.png";
+import Talisman from "../assets/Brands/TalisMan.jpeg";
 AOS.init();
 
 const brands = [
   {
-    name: "OMINS",
-    description: "Leading manufacturer of premium pool tables.",
-    logo: "omins", // Replace with actual image URL
+    name: "Aramith",
+    description: "Best high quality billiard balls",
+    logo: Aramith, // Replace with actual image URL
   },
   {
     name: "Wiraka",
-    description: "High-quality billiard accessories and sticks.",
-    logo: "wiraka", // Replace with actual image URL
+    description:
+      "Wiraka, specializes in billiards, snooker, and pool, and has been  leader in the billiard for over 40 years.",
+    logo: Wiraka, // Replace with actual image URL
   },
   {
-    name: "Sharma Billiard Cue",
-    description: "Innovative designs for modern pool tables.",
-    logo: "brand_c_logo_url", // Replace with actual image URL
+    name: "Talisman",
+    description:
+      "Talisman Billiards is a company that produces high-quality cue tips for snooker",
+    logo: Talisman,
   },
 ];
 
@@ -34,11 +38,7 @@ const Brands = () => {
               data-aos="flip-left"
               data-aos-delay={`${index * 100}`}
             >
-              <img
-                src={brand.logo}
-                alt={brand.name}
-                className="w-full h-48 object-cover"
-              />
+              <img src={brand.logo} alt={brand.name} className="w-52 m-auto" />
               <div className="p-6">
                 <h2 className="text-2xl font-semibold mb-2">{brand.name}</h2>
                 <p className="text-gray-600">{brand.description}</p>

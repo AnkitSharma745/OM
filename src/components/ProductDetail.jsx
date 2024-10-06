@@ -6,6 +6,7 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import OrderNowModal from "./OrderFormModal";
 
 const Container = styled.div`
   max-width: 1200px;
@@ -123,9 +124,9 @@ const ProductDetail = () => {
         </div>
 
         {/* Add to Cart */}
-        <button className="mt-6 w-full bg-red-500 text-white py-3 rounded-lg hover:bg-red-600 transition duration-300">
-          Buy Now
-        </button>
+        <div className="m-auto mt-4 ml-6 ">
+          <OrderNowModal />
+        </div>
 
         <div className="mt-8">
           <h3 className="text-xl font-bold">Product Information</h3>

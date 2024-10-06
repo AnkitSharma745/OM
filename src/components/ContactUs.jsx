@@ -3,6 +3,7 @@ import { sendEmails } from "../email";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Switch } from "@headlessui/react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const contactDetails = [
   {
@@ -18,6 +19,15 @@ const contactDetails = [
     icon: "✉️",
     info: "askombilliard@gmail.com",
     link: "mailto:askombilliard@gmail.com",
+  },
+  {
+    id: 3,
+    icon: <FaWhatsapp />,
+    title: "WhatsApp",
+    info: "+91 81784 55277",
+    link: `https://wa.me/918178455277?text=${encodeURIComponent(
+      "Hello, I would like to know more about your products and services "
+    )}`,
   },
   {
     id: "03",

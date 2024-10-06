@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Product", href: "/product", current: false },
-  { name: "Service", href: "/services", current: false },
-  { name: "Brands", href: "/brand", current: false },
+  { name: "Products", href: "/products", current: false },
+  { name: "Services", href: "/services", current: false },
+  { name: "Brands", href: "/brands", current: false },
 ];
 
 function classNames(...classes) {
@@ -58,7 +58,7 @@ export default function NavBar() {
               {/* "Get Started" button for larger screens */}
               <div className="hidden sm:flex">
                 <Link
-                  to="/product"
+                  to="/products"
                   className="rounded-full bg-gradient-to-r from-[#117D6A] via-[#117D6A] to-[#072079] text-white px-5 py-2 text-base font-semibold hover:bg-gradient-to-l transition-all duration-300 ease-in-out"
                   style={{ color: "#ffffff" }} // Keep text white to contrast the gradient
                 >
