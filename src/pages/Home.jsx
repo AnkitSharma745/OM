@@ -10,6 +10,7 @@ import Balls from "../assets/Product_Category/Balls.jpg";
 import { placeholderProduct, images } from "../Data/data";
 import NavBar from "../components/NavBar";
 import ContactUs from "../components/ContactUs";
+import { Helmet } from "react-helmet";
 
 function Home() {
   const settings = {
@@ -26,6 +27,18 @@ function Home() {
   const isAuth = true;
   return (
     <>
+      <Helmet>
+        <title>Om Billiard - Premium Pool Tables</title>
+        <meta
+          name="description"
+          content="Explore premium pool tables, cues, and accessories at Om Billiard. Shop for high-quality billiard products."
+        />
+        <meta
+          name="keywords"
+          content="billiards, pool tables, cues, accessories, Om Billiard"
+        />
+        <meta name="author" content="Om Billiard" />
+      </Helmet>
       <NavBar isLoggedIn={isAuth} />
       <div
         className="relative w-full h-screen"

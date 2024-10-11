@@ -9,15 +9,28 @@ AOS.init();
 
 const Product = () => {
   return (
-    <div className="bg-gray-50 py-12">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Our Products</h1>
-        <PoolTable />
-        <Balls />
-        <Stick />
-        <MoreProduct />
+    <>
+      <Helmet>
+        <title>Om Billiard Products - Pool Tables and Accessories</title>
+        <meta
+          name="description"
+          content="Browse Om Billiard's range of premium pool tables, cue sticks, and billiard accessories."
+        />
+        <meta
+          name="keywords"
+          content="pool tables, cue sticks, billiard accessories, buy billiards equipment"
+        />
+      </Helmet>
+      <div className="bg-gray-50 py-12">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold text-center mb-12">Our Products</h1>
+          <PoolTable />
+          <Balls />
+          <Stick />
+          <MoreProduct />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
