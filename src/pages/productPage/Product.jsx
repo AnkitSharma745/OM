@@ -4,6 +4,7 @@ import PoolTable from "../../components/PoolTable";
 import Balls from "../../components/Balls";
 import Stick from "../../components/Stick";
 import MoreProduct from "../../components/MoreProduct";
+import { Helmet } from "react-helmet";
 
 AOS.init();
 
