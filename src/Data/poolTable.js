@@ -85,7 +85,7 @@ const PoolTableData = [
       ],
       size: ["4ft x 8ft"],
       price: {
-        current: "1.5 Lac",
+        current: "1.5 lakhs",
         original: 170000,
       },
       discount: 20000,
@@ -132,8 +132,8 @@ const PoolTableData = [
       ],
       size: ["8ft x 4ft"],
       price: {
-        current: "1.5 Lacs",
-        original: "1.6 Lacs",
+        current: "1.5 Lakhs",
+        original: "1.6 Lakhs",
       },
       discount: 10000,
       information: [
@@ -229,8 +229,8 @@ const PoolTableData = [
       ],
       size: ["12ft x 6ft"],
       price: {
-        current: "1.2 Lacs",
-        original: "1.3 Lacs",
+        current: "1.2 Lakhs",
+        original: "1.3 Lakhs",
       },
       discount: 10000,
       information: [
@@ -275,8 +275,8 @@ const PoolTableData = [
       ],
       size: ["8ft x 4ft"],
       price: {
-        current: "1.8 Lacs",
-        original: "1.9 Lacs",
+        current: "17999",
+        original: "21000",
       },
       discount: 10000,
       information: [
